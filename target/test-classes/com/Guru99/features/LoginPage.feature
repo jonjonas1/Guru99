@@ -1,4 +1,6 @@
 Feature: Login test
+
+@temp
 	Scenario: the user login website
         Given the user is on the login page
         When the user enters username and password

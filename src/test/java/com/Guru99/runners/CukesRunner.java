@@ -15,11 +15,12 @@ import cucumber.api.junit.Cucumber;
 //        
 //        },
         
-//        tags="@temp",
+        tags="@temp",
         features="src/test/resources/com/guru99/features", 
-        glue="com/prestashop/step_definitions"
-        ,dryRun = true
+        glue="com/Guru99/step_definitions"
+        ,dryRun = false
         )
+
 public class CukesRunner {
 	
 	
